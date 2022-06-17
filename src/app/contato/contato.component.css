@@ -1,4 +1,10 @@
-a{
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'ABeeZee', sans-serif;
+}
+
+a {
   display: flex;
   justify-content: center;
 

@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'ABeeZee', sans-serif;
+}
+
 .btn {
   width: 140px;
   height: 35px;
-  background-color: orangered;
-  color: floralwhite;
+  background-color: #ee754c;
+  color: #fbf7e4;
 }
 
 .imgMarca {
