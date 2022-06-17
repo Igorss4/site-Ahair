@@ -1,0 +1,10 @@
+img{
+  width: 105px;
+}
+
+.btn {
+  width: 140px;
+  height: 35px;
+  background-color: orangered;
+  color: floralwhite;
+}
