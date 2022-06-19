@@ -1,39 +1,45 @@
-<nav class="container flex justify-between px-4 py-8 mx-auto bg-escuro-100">
-  <div>
-    <img class="w-18 h-12"
-      src="https://cdn.discordapp.com/attachments/986341389740691466/986341402852081694/unknown.png"
-      alt="Logo da Lanchoneteria">
-  </div>
-  <div class="flex lg:hidden">
-    <button data-collapse-toggle="mobile-menu" type="button" aria-controls="mobile-menu" aria-expanded="false">
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-12 text-claro-100" fill="none" viewBox="0 0 24 24"
-        stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
-    </button>
-    <div class=" row flex justify-end ">
-      <div class="hidden menu mt-12 -mr-2 bg-escuro-100 rounded-2xl border-2 border-claro-100 absolute" id="mobile-menu">
-      <ul class="flex-col text-center ">
-        <li>
-          <a (click)="scrollServicos()"
-            class="block py-2 pr-4 pl-3 rounded-2xl text-claro-100 hover:bg-escuro-200 "
-            aria-current="page">Serviços</a>
-        </li>
-        <li>
-          <a (click)="scrollSobre()"
-            class="block py-2 pr-4 pl-3 rounded-2xl text-claro-100  hover:bg-escuro-200">Sobre</a>
-        </li>
-        <li>
-          <a (click)="scrollContato()"
-            class="block py-2 pr-4 pl-3 rounded-2xl text-claro-100 hover:bg-escuro-200 ">Contato</a>
-        </li>
-        <li>
-          <a href="#"
-            class="block py-2 pr-4 pl-3 rounded-2xl text-claro-100  hover:bg-escuro-200 ">Horários</a>
-        </li>
-      </ul>
+<nav class="container px-4 py-8 mx-auto bg-escuro-100">
+  <div class="row flex justify-between">
+    <div class="col-md-6">
+        <img class="w-18 h-12"
+          src="https://cdn.discordapp.com/attachments/986341389740691466/986341402852081694/unknown.png"
+          alt="Logo do estabelecimento">
     </div>
+
+    <div class="col-md-6 flex md:row ">
+        <button class="md:hidden" data-collapse-toggle="mobile-menu" type="button" aria-controls="mobile-menu" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-12 text-claro-100" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+
+          <div class="flex justify-end md:mr-10">
+            <div class="hidden mt-12 -mr-2 w-24 h-42 bg-escuro-100 rounded-2xl border-2 border-claro-100 md:flex md:-m-0 md:justify-end md:border-0 md:h-auto md:w-full " id="mobile-menu">
+            <ul class="flex-col text-center md:flex md:flex-row md:justify-end">
+              <li class="">
+                <a (click)="scrollServicos()"
+                  class="block md:flex py-2 pr-4 pl-3 rounded-2xl text-claro-100 hover:bg-escuro-200 "
+                  aria-current="page">Serviços</a>
+              </li>
+              <li>
+                <a (click)="scrollSobre()"
+                  class="block md:flex py-2 pr-4 pl-3 rounded-2xl text-claro-100  hover:bg-escuro-200">Sobre</a>
+              </li>
+              <li>
+                <a (click)="scrollContato()"
+                  class="block md:flex py-2 pr-4 pl-3 rounded-2xl text-claro-100 hover:bg-escuro-200 ">Contato</a>
+              </li>
+              <li class="">
+                <a href="#"
+                  class="block py-2  pr-4 pl-3 rounded-2xl text-claro-100  hover:bg-escuro-200  md:flex  md:border-2 md:border-medio-100 md:rounded-full md:px-6 md:py-1 md:text-medio-100">Horários</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
     </div>
-  </div>
+
+
 </nav>
 
