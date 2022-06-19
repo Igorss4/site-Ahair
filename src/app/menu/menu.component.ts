@@ -1,3 +1,4 @@
+import { transition } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -10,18 +11,28 @@ export class MenuComponent implements OnInit {
   constructor() { }
 
   ngOnInit(){
+
     window.scroll(0,0)
   }
 
 
   scrollServicos(){
-    window.scroll(0,740)
+    window.scroll({
+      left: 0,
+      top: 740,
+    behavior: 'smooth'});
   }
   scrollSobre(){
-    window.scroll(0,1400)
+    window.scroll({
+      left: 0,
+      top: 1400,
+    behavior: 'smooth'});
   }
   scrollContato(){
-    window.scroll(0,3000)
+    window.scroll({
+      left: 0,
+      top: 3000,
+    behavior: 'smooth'});
   }
 
 }
