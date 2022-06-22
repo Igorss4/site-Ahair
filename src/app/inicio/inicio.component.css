@@ -1,0 +1,66 @@
+.btn {
+  width: 140px;
+  height: 30px;
+  background-color: #ee754c;
+  color: #fbf7e4;
+}
+
+.btn:hover {
+  background-color: #e54a16;
+}
+
+.imgMarca {
+  width: 457px;
+  height: 468px;
+}
+
+.imgMarcaMd {
+  width: 992px;
+  height: 992px;
+}
+
+.cardAgenda {
+  width: 155px;
+  height: 235px;
+
+}
+
+.btnAgendar {
+  width: 120px;
+  height: 25px;
+  background-color: #ee754c;
+  color: #fbf7e4;
+}
+
+.btnAgendar:hover {
+  background-color: #e54a16;
+}
+
+.imgFundadora {
+  width: 232.79px;
+  height: 300.52px;
+}
+
+.imgEquipe {
+  width: 105px;
+}
+
+.btnEquipe {
+  width: 140px;
+  height: 35px;
+  background-color: #ee754c;
+  color: #fbf7e4;
+}
+
+.btnEquipe:hover {
+  background-color: #e54a16;
+}
+
+.imgContato {
+  width: 80px;
+}
+
+.imgFooter {
+  width: 69px;
+  height: 50px;
+}

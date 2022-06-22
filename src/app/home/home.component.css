@@ -4,21 +4,3 @@
   font-family: 'ABeeZee', sans-serif;
 }
 
-.btn {
-  width: 140px;
-  height: 30px;
-  background-color: #ee754c;
-  color: #fbf7e4;
-}
-.btn:hover{
-  background-color: #e54a16;
-}
-
-.imgMarca {
-  width: 457px;
-  height: 468px;
-}
-.imgMarcaMd{
-  width: 992px;
-  height: 992px;
-}

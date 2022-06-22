@@ -3,16 +3,16 @@
 * {
   font-family: 'ABeeZee', sans-serif;
 }
-img{
+.imgEquipe{
   width: 105px;
 }
 
-.btn {
+.btnEquipe {
   width: 140px;
   height: 35px;
   background-color: #ee754c;
   color: #fbf7e4;
 }
-.btn:hover{
+.btnEquipe:hover{
   background-color: #e54a16;
 }

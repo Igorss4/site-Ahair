@@ -13,6 +13,7 @@ import { CardsAgendarComponent } from './cards-agendar/cards-agendar.component';
 import { FundadoraComponent } from './fundadora/fundadora.component';
 import { EquipeComponent } from './equipe/equipe.component';
 import { ContatoComponent } from './contato/contato.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContatoComponent } from './contato/contato.component';
     CardsAgendarComponent,
     FundadoraComponent,
     EquipeComponent,
-    ContatoComponent
+    ContatoComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,

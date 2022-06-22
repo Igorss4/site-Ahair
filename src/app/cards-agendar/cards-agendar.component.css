@@ -10,12 +10,12 @@
 
 }
 
-.btn {
+.btnAgendar {
   width: 120px;
   height: 25px;
   background-color: #ee754c;
   color: #fbf7e4;
 }
-.btn:hover{
+.btnAgendar:hover{
   background-color: #e54a16;
 }
