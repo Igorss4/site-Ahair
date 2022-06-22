@@ -9,7 +9,19 @@ export class InicioComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(){
+    window.scroll({
+      top:0,
+      left: 0
+    })
   }
+
+  scroll(){
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  };
 
 }
